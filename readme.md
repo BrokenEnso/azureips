@@ -6,6 +6,9 @@ This is a simple tool that can fetch the JSON file, that Microsoft publishes, of
 Service Tag: AzureCloud
 Output: stdout
 
+> [!CAUTION]
+> Each run of this file makes a request to a Microsoft owned/operated web server. This means Microsoft [Terms of Use](https://www.microsoft.com/en-us/legal/terms-of-use) would apply when using this tool. Do not run this in a way that that would be abusive to their systems or services.  
+
 ### Usage
 Write the IPs for EventHub.NorthEurope to a file called 'eventhub.txt'
 
